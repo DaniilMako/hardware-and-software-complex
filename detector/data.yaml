@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['plain']
+
+roboflow:
+  workspace: project-ennic
+  project: -1-acin6
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/project-ennic/-1-acin6/dataset/1
